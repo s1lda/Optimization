@@ -24,7 +24,7 @@ def rosen_gradient_projection_constraint(x0, alpha, max_iter, epsilon):
             break
     return x
 
-x0 = np.array([0.8, 0.8])
+x0 = np.array([0.0, 0.0])
 alpha = 0.01
 max_iter = 1000
 epsilon = 1e-6
