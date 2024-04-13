@@ -11,12 +11,11 @@ def lagrange_multiplier_method(objective_function, equality_constraints, initial
 
     return result.x
 
-# Пример использования
 def objective_function(x):
-    return 2*x[0] + x[1] - 3
+    return x[0]**2 - x[1]**2
 
 def equality_constraint(x):
-    return x[0]**2 - x[1]**2  # Уравнение ограничения
+    return 2*x[0] + x[1] - 3  # Уравнение ограничения
 
 equality_constraints = [equality_constraint]
 initial_guess = [0, 0]
