@@ -43,4 +43,4 @@ epsilon = 0.01
 
 x, y = method_of_penalty_functions(x0, y0, epsilon)
 print(f"x = {x}, y = {y}")
-print(f"f = {x ** 2 - 2 * x + y ** 2 - y}")
+print(f"f = {x ** 2 + y ** 2 - 3 * x + 15 * y}")
